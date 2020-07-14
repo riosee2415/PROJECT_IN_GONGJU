@@ -62,7 +62,7 @@ module.exports = {
   devServer: {
     contentBase: "./public",
     host: "localhost",
-    port: 3000,
+    port: 5000,
     proxy: {
       "**": "http://localhost:5000",
     },
