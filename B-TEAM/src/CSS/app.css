@@ -1,22 +1,22 @@
 .top {
   width: 100%;
   height: 350px;
-  background-color: #0b0b0b;
+  background-color: #ddf3f5;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: #eee;
+  color: #000;
 }
 
 .bottom {
   width: 100%;
   height: 350px;
-  background-color: #414141;
+  background-color: #a6dcef;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: #eee;
-  margin-top: 57px;
+  color: #000;
+  margin-top: 55px;
 }
