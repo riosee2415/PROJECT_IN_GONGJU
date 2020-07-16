@@ -1,4 +1,5 @@
 import React from "react";
+import "./CSS/styles.css";
 
 class App extends React.Component {
   render() {
