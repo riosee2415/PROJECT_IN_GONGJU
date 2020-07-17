@@ -7,11 +7,14 @@ class App extends React.Component {
       <div>
         <div className="top">캘린더</div>
 
-        <div className="btn">
-          <button>확인</button>
+        <div className="button">
+          <button className="btn">확인</button>
         </div>
 
-        <div className="bottom">할일 목록</div>
+        <div className="bottom">
+          <input type="text" className="text__1"></input>
+          <button className="btn__2">삭제</button>
+        </div>
       </div>
     );
   }
