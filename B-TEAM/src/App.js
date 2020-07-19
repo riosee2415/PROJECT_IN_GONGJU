@@ -17,8 +17,9 @@ class App extends React.Component {
         </div>
 
         <div className="bottom">
-          <input type="text" className="text__1"></input>
+          <input className="text__1" type="text"></input>
           <input className="btn__1" type="button" value="삭제"></input>
+          <div className="line"></div>
         </div>
       </div>
     );
