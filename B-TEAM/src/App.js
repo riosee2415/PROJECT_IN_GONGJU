@@ -18,11 +18,21 @@ class App extends React.Component {
 
         <div className="bottom">
           <input className="text__1" type="text"></input>
-          <input className="btn__1" type="button" value="삭제"></input>
+          <input
+            className="btn__1"
+            type="button"
+            value="삭제"
+            //onClick={}
+          ></input>
 
           <div className="bottom_1">
             <input className="text__2" type="text"></input>
-            <input className="btn__2" type="button" value="삭제"></input>
+            <input
+              className="btn__2"
+              type="button"
+              value="삭제"
+              //onClick={}
+            ></input>
           </div>
         </div>
       </div>
