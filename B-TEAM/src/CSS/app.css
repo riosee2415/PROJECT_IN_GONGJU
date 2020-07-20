@@ -20,8 +20,14 @@ body {
   align-items: flex-start;
   justify-content: flex-end;
 
+  border: 3px 3px 3px #0b0b0b;
+  outline: none;
+  background: none;
+
+  font-size: 15px;
   margin-left: 1390px;
   margin-top: 5px;
+  margin-right: 20px;
 }
 
 .bottom {
@@ -45,13 +51,45 @@ body {
   outline: none;
   background-color: none;
 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+
   margin-right: 40px;
   margin-top: 30px;
 }
 
 .bottom .btn__1 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+
+  margin-top: 30px;
+  margin-right: 15px;
+}
+
+.bottom_1 .text__2 {
+  width: 1320px;
+  height: 3vh;
+
+  background: none;
+  outline: none;
+  background-color: none;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+
+  margin-right: 40px;
+  margin-top: 30px;
+}
+
+.bottom .btn__2 {
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
 
