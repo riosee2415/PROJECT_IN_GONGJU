@@ -9,32 +9,29 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div>
-        <div className="top">캘린더 만들어서 넣기</div>
-
-        <div className="button">
-          <input className="btn" type="button" value="확인"></input>
-        </div>
-
-        <div className="bottom">
-          <input className="text__1" type="text"></input>
-          <input
-            className="btn__1"
-            type="button"
-            value="삭제"
-            //onClick={}
-          ></input>
-
-          <div className="bottom_1">
-            <input className="text__2" type="text"></input>
-            <input
-              className="btn__2"
-              type="button"
-              value="삭제"
-              //onClick={}
-            ></input>
+      <div className="App">
+        <section className="App__top"></section>
+        <section className="App__bottom">
+          <div className="App__bottom__box">
+            <input type="text" />
+            <button> 확인 </button>
           </div>
-        </div>
+
+          <div className="App__bottom__box">
+            <input type="text" />
+            <button> 확인 </button>
+          </div>
+
+          <div className="App__bottom__box">
+            <input type="text" />
+            <button> 확인 </button>
+          </div>
+
+          <div className="App__bottom__box">
+            <input type="text" />
+            <button> 확인 </button>
+          </div>
+        </section>
       </div>
     );
   }
