@@ -12,8 +12,11 @@
   "dependencies": {
     "cross-env": "^7.0.2",
     "css-loader": "^3.6.0",
+    "date-arithmetic": "^4.1.0",
     "dotenv-webpack": "^2.0.0",
+    "moment": "^2.27.0",
     "react": "^16.13.1",
+    "react-big-calendar": "^0.26.0",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "style-loader": "^1.2.1",

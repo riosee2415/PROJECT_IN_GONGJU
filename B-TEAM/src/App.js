@@ -10,7 +10,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <div className="top">캘린더</div>
+        <div className="top"></div>
 
         <div className="button">
           <input className="btn" type="button" value="확인"></input>
