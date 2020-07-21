@@ -17,7 +17,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  border-top: 3px solid #968585;
+  border-top: 3px solid #48dbfb;
 }
 
 .seleteDate {
@@ -30,7 +30,8 @@
   background: none;
   outline: none;
   cursor: pointer;
-  border-bottom: 3px solid #968585;
+
+  border-bottom: 3px solid #48dbfb;
   margin-top: 30px;
   margin-right: 50px;
 }
@@ -38,13 +39,16 @@
 .check {
   width: 7%;
   height: 4vh;
-  border: 3px solid #968585;
+  border: 3px solid #48dbfb;
   border-radius: 10px;
   background: none;
   outline: none;
   cursor: pointer;
   margin-top: 15px;
   margin-left: 10px;
-  color: #d2bdba;
+  color: #22a6b3;
   font-weight: 900;
+}
+.MuiInput-input {
+  color: #22a6b3;
 }
