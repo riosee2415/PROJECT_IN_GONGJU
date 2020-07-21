@@ -4,17 +4,27 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cross-env NODE_ENV=development webpack-dev-server -p",
+    "bulid": "cross_env NODE_ENV=production webpack -p"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fullcalendar/core": "^5.1.0",
+    "@fullcalendar/daygrid": "^5.1.0",
+    "@fullcalendar/react": "^5.1.0",
     "cross-env": "^7.0.2",
     "css-loader": "^3.6.0",
+    "date-arithmetic": "^4.1.0",
     "dotenv-webpack": "^2.0.0",
+    "moment": "^2.27.0",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
+    "react-big-calendar": "^0.26.0",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
     "url-loader": "^4.1.0"
   },
   "devDependencies": {
