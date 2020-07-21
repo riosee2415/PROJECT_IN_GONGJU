@@ -6,9 +6,12 @@ import CalendarAnt from "./components/Calendar";
 class App extends React.Component {
   render() {
     return (
-      <div className="container">
-        <div className="calender">
-          <CalendarAnt />
+      <div>
+
+        <div className="container">
+          <div className="calender">
+            <CalendarAnt />
+          </div>
         </div>
         <div className="todo">
           <div className="seleteDate">
