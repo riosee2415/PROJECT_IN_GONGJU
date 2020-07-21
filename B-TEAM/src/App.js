@@ -40,7 +40,7 @@ class App extends React.Component {
   }
 
   _alertBtnHandler = () => {
-    alert("확인");
+    alert("삭제하시겠습니까?");
   };
 }
 export default App;

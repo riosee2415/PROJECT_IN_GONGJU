@@ -50,7 +50,7 @@ body {
   border: 1px solid rgba(200, 200, 200);
   box-shadow: 3px 5px 5px rgba(200, 200, 200);
   border-radius: 3px;
-  margin: 0px 10px;
+  margin: 0px 15px;
 }
 
 .App .App__bottom .App__bottom__box input:active {
