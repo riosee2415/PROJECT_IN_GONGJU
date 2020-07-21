@@ -73,3 +73,8 @@ body {
   background: #eee;
   color: #0b0b0b;
 }
+
+.mypage-body {
+  width: 374px;
+  height: 10vh;
+}

@@ -17,22 +17,22 @@ class App extends React.Component {
         <section className="App__bottom">
           <div className="App__bottom__box">
             <input type="text" />
-            <button onClick={this._alertBtnHandler}> 확인 </button>
+            <button onClick={this._alertBtnHandler}> 삭제 </button>
           </div>
 
           <div className="App__bottom__box">
             <input type="text" />
-            <button onClick={this._alertBtnHandler}> 확인 </button>
+            <button onClick={this._alertBtnHandler}> 삭제 </button>
           </div>
 
           <div className="App__bottom__box">
             <input type="text" />
-            <button onClick={this._alertBtnHandler}> 확인 </button>
+            <button onClick={this._alertBtnHandler}> 삭제 </button>
           </div>
 
           <div className="App__bottom__box">
             <input type="text" />
-            <button onClick={this._alertBtnHandler}> 확인 </button>
+            <button onClick={this._alertBtnHandler}> 삭제 </button>
           </div>
         </section>
       </div>
